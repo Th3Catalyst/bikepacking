@@ -13,16 +13,20 @@
 <body>
   <!-- full header bar-->
   <div class="header">
-    <!-- all the header text (again the div is for the flexbox)-->
+    <!-- all the header text-->
     <h1>Bikepacking</h1>
     <h3>The best kind of biking</h3>
+    <!-- This is the side bar button, it doesnt need to be in the header but it made the most sens to put it here. -->
     <a href="#side-bar" class="open-menu">≡</a>
   </div>
 
 
-  <!-- side bar, its an "a" because that is the syntax for a bookmark-->
+  <!-- side bar, its an "a" because that is the syntax for a bookmark (this side bar code is figured out by myself with a small amout of help from w3, it took a long time)-->
+   <!-- the side-bar is a link because  that was the only way I could link to a different bookmark in the parent page, as linking to any other bookmark will make the side-bar lose the :target pseudo-class-->
   <a id="side-bar" href="##">
+    <!-- This is the side bar background that you see -->
     <div class="side-bar-container">
+      <!-- this is an embedded page instead of just a list of links since you cannot nest <a> tags. -->
       <embed src="side-bar.html" class="embed-bar" type="text/html">
     </div>
   </a>
