@@ -276,7 +276,7 @@ embed .side-bar-con .close-menu {
     transform: translateX(300%);
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(400%);
   }
 }
 .route-map {
