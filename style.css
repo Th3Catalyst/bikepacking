@@ -132,10 +132,10 @@ html {
   height: 1em;
   line-height: 0.9em;
   text-align: center;
-  border: 0.2em solid #888 !important;
+  /* border: 0.2em solid #888 !important;
   background-color: #fff !important;
-  border-radius: 3em;
-  color: #888 !important;
+  border-radius: 3em; */
+  color: #000 !important;
   text-decoration: none;
 }
 
