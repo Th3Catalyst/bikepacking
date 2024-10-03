@@ -185,8 +185,8 @@ a:visited {
   text-align: center;
 }
 .overnighter {
-  width: 13rem;
-  height: 13rem;
+  width: max(200px,13rem);
+  height: max(200px,13rem);
   border-radius: 1em;
   border: #000 solid 2px;
   align-content: center;
