@@ -41,6 +41,12 @@ html {
   text-align: right;
   margin-right: 2em;
 }
+a:link {
+  color:#219EBC;
+}
+a:visited {
+  color: #023047;
+}
 
 
 
