@@ -4,8 +4,9 @@ body {
 .page-link {
   text-decoration: none;
   font-weight: bold;
-  color: #eae2b7;
+  color: #FFB703;
 }
 h3 {
+  font-size: 150%;
   color: #eae2b7;
 }
