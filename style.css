@@ -1,1 +1,285 @@
+body {
+  /* removes some border issues with the header*/
+  margin: 0px;
+}
 
+html {
+  height: 100%;
+  width: 100%;
+  /* Makes the background look good on a phone */
+  background-repeat: repeat;
+
+  font-family: Arial, sans-serif;
+  background-color: #003049;
+ 
+
+}
+
+
+
+/* styling the header bar*/
+.header {
+  font-family: "Georgia", serif;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  width: 100%;
+  padding-top: 1.5em;
+  border-bottom: solid 2px #000;
+  background-color: #4f772d;
+}
+
+/* styling the "Max Knoth" header */
+.header h1 {
+  font-size: 250%;
+  margin-bottom: 0px;
+  color: #eae2b7;
+  text-shadow: 2px 2px #222;
+}
+
+/* styling the "A website about me" header */
+.header h3 {
+  margin-top: 0px;
+  color: #f77f00;
+  text-shadow: 1px 1px #222;
+}
+
+/* styles the sidebar*/
+/* # is becuase it is a bookmark, not a class*/
+#side-bar {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /* offscreen if button is not clicked*/
+  left: -240em;
+  top: 0em;
+  z-index: 100;
+  color: white;
+  /*repition is so it works on all browsers*/
+  transition: 0.5s ease-in-out 0.1s;
+  -o-transition: 0.5s ease-in-out 0.1s;
+  -webkit-transition: 0.5s ease-in-out 0.1s;
+  -mez-transition: 0.5s ease-in-out 0.1s;
+  -ms-transition: 0.5s ease-in-out 0.1s;
+  
+  
+}
+.side-bar-container {
+  height:100%;
+  width: 17em;
+  -webkit-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  -mez-backdrop-filter: blur(10px);
+  -ms-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*:target means if it is hyperlinked to (notice how when you click side bar the link adds #side-bar)*/
+#side-bar:target {
+  /*makes side bar onscreen once button is clicked*/
+  left: 0;
+
+
+}
+
+/*styles the other text (buttons and marquee)*/
+.main-content {
+  text-align: center;
+  color: #eae2b7;
+
+}
+
+.main-content h3, .main-content h2 {
+  border-bottom: #000 solid 2px;
+  text-align: left;
+  font-weight: bold;
+  margin: 1em;
+  
+}
+
+/*styles specifically the buttons*/
+.buttons {
+  border: solid 2px #000;
+  text-align: right;
+  width: fit-content;
+}
+
+
+
+/* makes the header img not take up an obscene amount of space onscreen.*/
+.header-img {
+  width: 100px;
+}
+
+/* aligns the buttons towards the right, as the width:fit-content requires complex methods to align things.:(*/
+.button-align {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+
+
+.footer {
+  font-weight: normal !important;
+  font-size: 0.75em;
+  text-align: right;
+  margin-right: 2em;
+}
+
+.open-menu {
+    display: block;
+    position: fixed;
+    top: 0.3em;
+    left: 0.3em;
+    z-index: 15;
+    font-family: 'Nanum Gothic', san-serif;
+    font-size: 3em;
+    font-weight: 700;
+    width: 1em;
+    height: 1em;
+    line-height: 0.9em;
+    text-align: center;
+    border: 0.2em solid #888 !important;
+    background-color: #fff !important;
+    border-radius: 3em;
+    color: #888 !important;
+    text-decoration: none;
+}
+#side-bar:target .close-menu {
+   display: block;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 1000000em;
+   height:100000em;
+   z-index: -1;
+   opacity:0;
+}
+.embed-bar {
+  border: none;
+  width: 17em;
+}
+.side-bar-con {
+  display: none;
+}
+embed .side-bar-con .close-menu {
+  color: red;
+}
+.overnighter-container {
+  width: 100%;
+  background-color: #eae2b7;
+  color: #000;
+  display: flex;
+  margin: 0px;
+  padding: 1em;
+}
+.over-title {
+  font-size: 2rem;
+  font-family: "Impact",sans-serif; 
+  color: #000;
+  border: none!important;
+
+}
+.over-title-container {
+  margin: 0px;
+  background-color: #eae2b7;
+  text-align: center;
+}
+.overnighter {
+  width: 200px;
+  height: 200px;
+  border-radius: 1em;
+  border: #000 solid 2px;
+  align-content: center;
+  color: #fff;
+  text-shadow: #000 1px 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1em;
+}
+.overnighter-container a {
+  text-decoration: none!important;
+}
+#alright-delight {
+  background-image: url("./images/alright.jpg");
+}
+#High-Cascades {
+  background-image: url("./images/Cascade.jpeg");
+}
+.over-title-container h2 {
+  border: none!important;
+  text-decoration: none!important;
+  font-family: "Impact",sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+.slide-container {
+  position: relative;
+  left: calc(25% / 2);
+  width: 75%;
+  height: 20rem;
+  overflow: hidden;
+  border: #eae2b7 solid 5px;
+  border-radius: 8px;
+  margin: 0;
+}
+.caption {
+  position: relative;
+  color: #fff;
+  text-shadow: #000 1px 1px;
+  top: -3em;
+  left: 25%;
+  font-size: small;
+  margin: 0;
+
+}
+.wrapper {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  animation: slide 16s infinite;
+  -webkit-animation: slide 16s infinite;
+  overflow: visible;
+  flex-direction: row-reverse;
+}
+.wrapper img {
+  width: 100%;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(100%);
+  }
+  45% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(200%);
+  }
+  70% {
+    transform: translateX(200%);
+  }
+  75% {
+    transform: translateX(300%);
+  }
+  95% {
+    transform: translateX(300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.route-map {
+  width: 60%;
+  height: 40em;
+}
