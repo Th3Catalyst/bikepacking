@@ -1,3 +1,7 @@
+/* ------------------- */
+/* ------general------ */
+/* ------------------- */
+
 body {
   /* removes some border issues with the header*/
   margin: 0px;
@@ -15,7 +19,34 @@ html {
 
 }
 
+/*styles the main content text and titles*/
+.main-content {
+  text-align: center;
+  color: #eae2b7;
 
+}
+
+.main-content h3, .main-content h2 {
+  border-bottom: #000 solid 2px;
+  text-align: left;
+  font-weight: bold;
+  margin: 1em;
+  
+}
+
+/* styles the homepage footr */
+.footer {
+  font-weight: normal !important;
+  font-size: 0.75em;
+  text-align: right;
+  margin-right: 2em;
+}
+
+
+
+/* -------------- */
+/* ----header---- */
+/* -------------- */
 
 /* styling the header bar*/
 .header {
@@ -43,12 +74,16 @@ html {
   color: #f77f00;
   text-shadow: 1px 1px #222;
 }
+/* ------------------ */
+/* -----side-bar----- */
+/* ------------------ */
 
-/* styles the sidebar*/
+/* styles the sidebar container that is used to close the bar*/
 /* # is becuase it is a bookmark, not a class*/
 #side-bar {
   display: block;
   position: fixed;
+  /* this covers the screen so you can click anywhere to close */
   width: 100%;
   height: 100%;
   /* offscreen if button is not clicked*/
@@ -60,17 +95,16 @@ html {
   transition: 0.5s ease-in-out 0.1s;
   -o-transition: 0.5s ease-in-out 0.1s;
   -webkit-transition: 0.5s ease-in-out 0.1s;
-  -mez-transition: 0.5s ease-in-out 0.1s;
   -ms-transition: 0.5s ease-in-out 0.1s;
   
   
 }
+/* styles the visible side bar */
 .side-bar-container {
   height:100%;
   width: 17em;
   -webkit-backdrop-filter: blur(10px);
   -o-backdrop-filter: blur(10px);
-  -mez-backdrop-filter: blur(10px);
   -ms-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.2);
@@ -84,91 +118,36 @@ html {
 
 }
 
-/*styles the other text (buttons and marquee)*/
-.main-content {
-  text-align: center;
-  color: #eae2b7;
-
-}
-
-.main-content h3, .main-content h2 {
-  border-bottom: #000 solid 2px;
-  text-align: left;
-  font-weight: bold;
-  margin: 1em;
-  
-}
-
-/*styles specifically the buttons*/
-.buttons {
-  border: solid 2px #000;
-  text-align: right;
-  width: fit-content;
-}
-
-
-
-/* makes the header img not take up an obscene amount of space onscreen.*/
-.header-img {
-  width: 100px;
-}
-
-/* aligns the buttons towards the right, as the width:fit-content requires complex methods to align things.:(*/
-.button-align {
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px;
-  margin-right: 5px;
-}
-
-
-
-.footer {
-  font-weight: normal !important;
-  font-size: 0.75em;
-  text-align: right;
-  margin-right: 2em;
-}
 
 .open-menu {
-    display: block;
-    position: fixed;
-    top: 0.3em;
-    left: 0.3em;
-    z-index: 15;
-    font-family: 'Nanum Gothic', san-serif;
-    font-size: 3em;
-    font-weight: 700;
-    width: 1em;
-    height: 1em;
-    line-height: 0.9em;
-    text-align: center;
-    border: 0.2em solid #888 !important;
-    background-color: #fff !important;
-    border-radius: 3em;
-    color: #888 !important;
-    text-decoration: none;
+  display: block;
+  position: fixed;
+  top: 0.3em;
+  left: 0.3em;
+  z-index: 15;
+  font-family: 'Nanum Gothic', san-serif;
+  font-size: 3em;
+  font-weight: 700;
+  width: 1em;
+  height: 1em;
+  line-height: 0.9em;
+  text-align: center;
+  border: 0.2em solid #888 !important;
+  background-color: #fff !important;
+  border-radius: 3em;
+  color: #888 !important;
+  text-decoration: none;
 }
-#side-bar:target .close-menu {
-   display: block;
-   position: fixed;
-   top: 0px;
-   left: 0px;
-   width: 1000000em;
-   height:100000em;
-   z-index: -1;
-   opacity:0;
-}
+
+
 .embed-bar {
   border: none;
   width: 17em;
 }
-.side-bar-con {
-  display: none;
-}
-embed .side-bar-con .close-menu {
-  color: red;
-}
+/* -------------------- */
+/* -----Routes-css----- */
+/* -------------------- */
+
 .overnighter-container {
   width: 100%;
   background-color: #eae2b7;
@@ -217,7 +196,9 @@ embed .side-bar-con .close-menu {
   text-align: center;
   margin: 0px;
 }
-
+/* ----------------------------- */
+/* -------alright.html-css------ */
+/* ----------------------------- */
 .slide-container {
   position: relative;
   left: calc(25% / 2);
