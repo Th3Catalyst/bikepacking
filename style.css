@@ -102,10 +102,10 @@ a:visited {
   z-index: 100;
   color: white;
   /*repition is so it works on all browsers*/
-  transition: 0.5s ease-in-out 0.1s;
-  -o-transition: 0.5s ease-in-out 0.1s;
-  -webkit-transition: 0.5s ease-in-out 0.1s;
-  -ms-transition: 0.5s ease-in-out 0.1s;
+  transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
   border: none !important;
   
   
@@ -147,7 +147,9 @@ a:visited {
   color: #000 !important;
   text-decoration: none;
 }
-
+.open-menu:hover {
+  text-shadow: 2px 2px 1px #FFF;
+}
 
 .embed-bar {
   border: none;
