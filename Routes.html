@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- improves readablilty on a phone-->
+  <meta name="viewport" content="width=device-width initial-scale=1.0"">
+  <!-- title and favicon-->
+  <title>Bikepacking</title>
+  <link rel=" icon" type="image/x-icon" href="./B.jpg">
+  <!-- links to style.css-->
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- full header bar-->
+  <div class="header">
+    <!-- all the header text (again the div is for the flexbox)-->
+    <h1>Routes</h1>
+    <h3>How you ride</h3>
+    <a href="#side-bar" class="open-menu">≡</a>
+  </div>
+
+
+  <!-- side bar, its an "a" because that is the syntax for a bookmark-->
+  <a id="side-bar" href="##">
+    <div class="side-bar-container">
+      <embed type="text/html"  src="./side-bar.html" class="embed-bar">
+    </div>
+  </a>
+
+
+  <!-- all the text and other elemants on the main screen-->
+  <div class="main-content">
+    <p>
+      What route you choose on your trip is obviously the most important part, so you should take carful consideration before choosing a route.
+    </p>
+    <div class="over-title-container">
+        <h2 class="over-title">
+          OVERNIGHTERS
+        </h2>
+      <div class="overnighter-container">
+        <a href="./Routes/Alright.html" >
+          <div class="overnighter" id="alright-delight">
+            <h2> ALRIGHT DELIGHT </h2>
+            <h2>63.0MI</h2>
+            <h2>4514FT</h2>
+          </div>
+        </a>
+        <a href="./Routes/High-Cascades.html" >
+          <div class="overnighter" id="High-Cascades">
+            <h2>HIGH CASCADES</h2>
+            <h2>75.0MI</h2>
+            <h2>6873FT</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
