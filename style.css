@@ -110,9 +110,7 @@ a:visited {
   outline: none !important;
 
 }
-/*a {
-  text-decoration: none !important;
-}*/
+
 /* styles the visible side bar */
 .side-bar-container {
   height:100%;
@@ -166,7 +164,7 @@ a:visited {
 /* -------------------- */
 
 .overnighter-container {
-  width: 100%;
+  width: calc(100%-2em);
   background-color: #eae2b7;
   color: #000;
   display: flex;
