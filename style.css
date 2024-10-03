@@ -110,9 +110,9 @@ a:visited {
   outline: none !important;
 
 }
-a {
+/*a {
   text-decoration: none !important;
-}
+}*/
 /* styles the visible side bar */
 .side-bar-container {
   height:100%;
