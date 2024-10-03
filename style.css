@@ -57,7 +57,7 @@ html {
   width: 100%;
   padding-top: 1.5em;
   border-bottom: solid 2px #000;
-  background-color: #4f772d;
+  background-color: #219EBC;
 }
 
 /* styling the "Max Knoth" header */
@@ -132,9 +132,7 @@ html {
   height: 1em;
   line-height: 0.9em;
   text-align: center;
-  /* border: 0.2em solid #888 !important;
-  background-color: #fff !important;
-  border-radius: 3em; */
+  
   color: #000 !important;
   text-decoration: none;
 }
