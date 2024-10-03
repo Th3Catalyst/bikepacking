@@ -187,7 +187,7 @@ html {
   background-image: url("alright.jpg");
 }
 #High-Cascades {
-  background-image: url("Cascade.jpeg");
+  background-image: url("Cascades.jpeg");
 }
 .over-title-container h2 {
   border: none!important;
@@ -255,6 +255,9 @@ html {
   }
   95% {
     transform: translateX(300%);
+  }
+  99% {
+    transform: translateX(400%);
   }
   100% {
     transform: translateX(400%);
