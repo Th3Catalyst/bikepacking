@@ -41,9 +41,13 @@ html {
   text-align: right;
   margin-right: 2em;
 }
+
+/* link styling */
+/* unvisited link */
 a:link {
   color: #8ECAE6;
 }
+/* visited link */
 a:visited {
   color: #219EBC;
 }
