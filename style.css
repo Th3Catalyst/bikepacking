@@ -100,7 +100,6 @@ a:visited {
   left: -240em;
   top: 0em;
   z-index: 100;
-  color: white;
   /*repition is so it works on all browsers*/
   transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
