@@ -246,7 +246,7 @@ a:visited {
 }
 .wrapper {
   width: 100%;
-  height: fit-content;
+  height: 30rem;
   display: flex;
   padding: 0px;
   animation: slide 16s infinite;
@@ -256,7 +256,7 @@ a:visited {
 }
 .wrapper img {
   width: 100%;
-  
+  height: 30rem;
 }
 
 @keyframes slide {
