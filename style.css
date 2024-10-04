@@ -157,6 +157,8 @@ a:visited {
 .embed-bar {
   border: none;
   width: 17em;
+  overflow-y: visible;
+  height:100%;
 }
 
 /* -------------------- */
