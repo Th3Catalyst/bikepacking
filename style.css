@@ -248,7 +248,7 @@ a:visited {
   width: 100%;
   height: fit-content;
   display: flex;
-  padding: 0px;
+  margin: 0;
   animation: slide 16s infinite;
   -webkit-animation: slide 16s infinite;
   overflow: visible;
