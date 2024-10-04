@@ -10,3 +10,7 @@ h3 {
   font-size: 150%;
   color: #eae2b7;
 }
+.sources {
+  position: absolute;
+  bottom: 2em;
+}
