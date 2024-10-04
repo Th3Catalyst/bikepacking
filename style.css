@@ -149,7 +149,9 @@ a:visited {
   text-decoration: none;
 }
 .open-menu:hover {
-  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50em;
+  box-shadow: 2px 2px 5px rgba(255,255,255,0.3);
 }
 
 .embed-bar {
