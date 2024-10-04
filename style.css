@@ -255,8 +255,11 @@ a:visited {
   flex-direction: row-reverse;
 }
 .wrapper img {
-  width: 100%;
+  width: 1000rem;
+  
+  
 }
+
 @keyframes slide {
   0% {
     transform: translateX(0%);
