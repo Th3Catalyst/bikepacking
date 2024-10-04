@@ -248,13 +248,14 @@ a:visited {
   width: 100%;
   height: 30rem;
   display: flex;
+  padding: 0px;
   animation: slide 16s infinite;
   -webkit-animation: slide 16s infinite;
   overflow: visible;
   flex-direction: row-reverse;
 }
 .wrapper img {
-  width: 2000%;
+  width: 100%;
 }
 @keyframes slide {
   0% {
