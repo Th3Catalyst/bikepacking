@@ -227,9 +227,9 @@ a:visited {
 .slide-container {
   position: relative;
   left: calc(25% / 2);
-  width: 75%;
+  width: fit-content;
   height: 30rem;
-  
+  overflow: hidden;
   border: #eae2b7 solid 5px;
   border-radius: 8px;
   margin: 0;
