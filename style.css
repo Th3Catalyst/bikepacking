@@ -231,8 +231,6 @@ a:visited {
 .slide-container {
   position: relative;
   left: calc(25% / 2);
-  width: 75%;
-  height: 30rem;
   overflow: hidden;
   border: #eae2b7 solid 5px;
   border-radius: 8px;
@@ -254,6 +252,11 @@ a:visited {
     height: 10rem;
 
   }
+  .slide-container {
+    width: 15rem;
+    height: 10rem;
+  }
+  
 }
 @media only screen and (min-width: 768px) {
   .caption {
@@ -268,6 +271,10 @@ a:visited {
   }
   .wrapper {
     width: 100%;
+    height: 30rem;
+  }
+  .slide-container {
+    width: 75%;
     height: 30rem;
   }
 }
