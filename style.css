@@ -43,6 +43,10 @@ html {
 
 /* link styling */
 /* unvisited link */
+a {
+  text-decoration: none !important;
+  font-weight: bold;
+}
 a:link {
   color: #8ECAE6;
 }
@@ -51,6 +55,9 @@ a:visited {
   color: #219EBC;
 }
 
+ul {
+  list-style-type: none;
+}
 
 
 /* -------------- */
