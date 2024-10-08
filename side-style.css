@@ -1,11 +1,15 @@
+/* we use a separate stylesheet for the sidebar in order to keep the embedded page from showing a background on the sidebar */
+/* Setting the font for the sidebar */
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/* styling for the page links on the side bar */
 .page-link {
   text-decoration: none;
   font-weight: bold;
   color: #FFB703;
 }
+/* style for the SIDEBAR title */
 h3 {
   font-size: 150%;
   color: #eae2b7;

@@ -5,14 +5,16 @@
 body {
   /* removes some border issues with the header*/
   margin: 0px;
+  /* removes the ability to scroll sideways while zoomed all teh way out, since this cuts out the overflow */
   overflow-x: clip;
 }
-
+/* styles the entire page */
 html {
   height: 100%;
   width: 100%;
   font-family: Arial, sans-serif;
   background-color: #003049;
+  /* same as above */
   overflow-x: clip;
 
 }
@@ -25,11 +27,14 @@ html {
 
 }
 
+/* styles h3 and h2 for the websites main content */
 .main-content h3, .main-content h2 {
-  border-bottom: #000 solid 2px;
+  
   text-align: left;
   font-weight: bold;
   margin: 1em;
+  /* gives the title a nice separator */
+  border-bottom: #000 solid 2px;
   
 }
 
@@ -42,11 +47,11 @@ html {
 }
 
 /* link styling */
-/* unvisited link */
 a {
-  text-decoration: none !important;
+  text-decoration: none !important; /* removes the underline on a link */
   font-weight: bold;
 }
+/* unvisited link */
 a:link {
   color: #8ECAE6;
 }
@@ -55,8 +60,9 @@ a:visited {
   color: #219EBC;
 }
 
+/* styles the ul list tag */
 ul {
-  list-style-type: none;
+  list-style-type: none; /* removes the bullet point on a list */
 }
 
 
@@ -69,12 +75,12 @@ ul {
   font-family: "Georgia", serif;
   text-align: center;
   position: relative;
-  top: -30px;
+  top: -30px; /* makes sure there is no gap on the header */
   width: 100%;
   padding-top: 1.5em;
   border-bottom: solid 5px #000;
   background-color: #219EBC;
-  overflow-x: hidden;
+  overflow-x: clip; /* same as above */
 }
 
 /* styling the "Max Knoth" header */
@@ -96,22 +102,23 @@ ul {
 /* ------------------ */
 
 /* styles the sidebar container that is used to close the bar*/
-/* # is becuase it is a bookmark, not a class*/
+/* # is becuase it is an id, not a class*/
 #side-bar {
   display: block;
-  position: fixed;
+  position: fixed; /* this is so the sidebar stays with you when you scroll down */
   /* this covers the screen so you can click anywhere to close */
   width: 100%;
   height: 100%;
   /* offscreen if button is not clicked*/
   left: -100%;
   top: 0em;
-  z-index: 100;
+  z-index: 100; /* makes sure that the side bar close button is always above the main content */
   /*repition is so it works on all browsers*/
   transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
   -webkit-transition: 1s ease-in-out;
   -ms-transition: 1s ease-in-out;
+  /* these fix a blue line that appears when I linked the background as a bookmark */
   border: none !important;
   text-decoration: none !important;
   outline: none !important;
@@ -122,6 +129,7 @@ ul {
 .side-bar-container {
   height:100%;
   width: 17em;
+  /* makes the background of the sidebar blur the content below the sidebar */
   -webkit-backdrop-filter: blur(10px);
   -o-backdrop-filter: blur(10px);
   -ms-backdrop-filter: blur(10px);
@@ -139,32 +147,34 @@ ul {
 
 }
 
-
+/* styles the ≡ */
 .open-menu {
   display: block;
+  /* makes sure the button scrolls with you */
   position: fixed;
   top: 0.3em;
   left: 0.3em;
-  z-index: 15;
+  z-index: 95; /* makes the button go above the main content, but below the side bar close button */
   font-family: 'Nanum Gothic', san-serif;
+  /* helps the character ≡ look more like a button */
   font-size: 3em;
   font-weight: 700;
   width: 1em;
   height: 1em;
   line-height: 0.9em;
   text-align: center;
-  
   color: #000 !important;
   text-decoration: none;
 }
+/* gives the ≡ a shadow when hovered */
 .open-menu:hover {
   background-color: rgba(200, 200, 200, 0.1);
   border-radius: 50em;
   box-shadow: 2px 2px 5px rgba(255,255,255,0.3);
 }
-
+/* styles the embedded side bar page */
 .embed-bar {
-  border: none;
+  border: none; /* embedded pages have a border by default */
   width: 17em;
   overflow-y: visible;
   height:100%;
@@ -174,15 +184,17 @@ ul {
 /* -----Routes-css----- */
 /* -------------------- */
 
+/* styles the route image container */
 .overnighter-container {
-  width: calc(100%-2em);
+  width: calc(100%-2em); /* the padding would make the bar overflow the screen if the width was 100% */
   background-color: #eae2b7;
   color: #000;
   display: flex;
   margin: 0px;
   padding: 1em;
-  overflow-x: scroll;
+  overflow-x: scroll; /* gives the overflow bar a scroll property, so on phones you can scroll through the routes */
 }
+/* styles the "OVERNIGHTER" title */
 .over-title {
   font-size: 2rem;
   font-family: "Impact",sans-serif; 
@@ -190,11 +202,13 @@ ul {
   border: none!important;
 
 }
+/* styles the Overnighter container (+routes) */
 .over-title-container {
   margin: 0px;
   background-color: #eae2b7;
   text-align: center;
 }
+/* styles the individual route images */
 .overnighter {
   width: max(200px,13rem);
   height: max(200px,13rem);
@@ -203,13 +217,15 @@ ul {
   align-content: center;
   color: #fff;
   text-shadow: #000 1px 1px;
-  background-size: cover;
+  background-size: cover; /* mkaes the images in the background of the route images take up the whole backround */
   background-repeat: no-repeat;
   margin: 1em;
 }
+
 .overnighter-container a {
-  text-decoration: none!important;
+  text-decoration: none!important; /* removes the underline on a link */
 }
+/* gives the route images their backgrounds */
 #alright-delight {
   background-image: url("images/alright.jpg");
 }
@@ -225,6 +241,7 @@ ul {
 #lavalicious {
   background-image: url("images/lavalicious.jpeg");
 }
+/* styles the text in a route image */
 .over-title-container h2 {
   border: none!important;
   text-decoration: none!important;
@@ -235,6 +252,8 @@ ul {
 /* --------------------------------- */
 /* -------individual-route-css------ */
 /* --------------------------------- */
+
+/* slideshow from your canvas */
 .slide-container {
   position: relative;
   left: calc(25% / 2);
@@ -243,6 +262,7 @@ ul {
   border-radius: 8px;
   margin: 0;
 }
+/* RWD for the caption and the slideshow container */
 @media only screen and (max-width: 767px) {
   .caption {
     position: relative;
@@ -296,7 +316,7 @@ ul {
 .wrapper img {
   width: 100%;
 }
-
+/* slide animation for the slideshow */
 @keyframes slide {
   0% {
     transform: translateX(0%);
@@ -329,6 +349,7 @@ ul {
     transform: translateX(400%);
   }
 }
+/* styles the RWGPS route map embed */
 .route-map {
   width: 60%;
   height: 40rem;

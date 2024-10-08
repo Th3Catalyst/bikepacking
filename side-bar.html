@@ -7,12 +7,14 @@
     <!-- title and favicon-->
     <title>sidebar</title>
     <link rel=" icon" type="image/x-icon" href="images/B.jpg">
+    <!-- we link to another stylesheet so that the default background for html does not appear in the side bar -->
     <link href="side-style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <h3>
       SIDEBAR
     </h3>
+    <!-- we use _parent since the side bar is an embedded page and _parent puts the target of the link as the parent page, or the one embedding it -->
     <a target="_parent" class="page-link" href="./index.html">
         Home
     </a>
