@@ -269,19 +269,19 @@ ul {
     color: #fff;
     text-shadow: #000 1px 1px;
     top: -3em;
-    left: -1vw;
+    left: -1vw; /*vw is 1% of veiwport width */
     text-align: center;
     font-size: small;
     margin: 0;
   
   }
   .wrapper {
-    width: 75vw;
+    width: 75vw; /*vw is 1% of veiwport width */
     height: 60vw;
 
   }
   .slide-container {
-    width: 75vw;
+    width: 75vw; /*vw is 1% of veiwport width */
     height: 60vw;
   }
   
@@ -359,8 +359,8 @@ ul {
 }
 @media only screen and (max-width: 800px) {
   .route-map {
-    width: 100vw !important;
-    height: 90vw !important;
+    width: 100vw !important; /*vw is 1% of veiwport width */
+    height: 120vw !important;
   }
 
 }
