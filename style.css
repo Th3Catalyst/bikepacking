@@ -352,9 +352,16 @@ ul {
 }
 /* styles the RWGPS route map embed */
 .route-map {
-  width: 60%;
-  height: 40rem;
+  width: 70vw;
+  height: 65vw;
   border-radius: 2em;
   overflow: clip;
+}
+@media only screen and (max-width: 800px) {
+  .route-map {
+    width: 100vw !important;
+    height: 90vw !important;
+  }
+
 }
 
