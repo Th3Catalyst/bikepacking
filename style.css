@@ -317,7 +317,7 @@ ul {
 }
 .wrapper img {
   width: 75vw;
-  overflow: hidden;
+  overflow: clip;
 }
 /* slide animation for the slideshow */
 @keyframes slide {
