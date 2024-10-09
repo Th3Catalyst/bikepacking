@@ -276,12 +276,12 @@ ul {
   
   }
   .wrapper {
-    width: 15rem;
+    width: 75vw;
     height: 10rem;
 
   }
   .slide-container {
-    width: 15rem;
+    width: 75vw;
     height: 10rem;
   }
   
@@ -298,11 +298,11 @@ ul {
   
   }
   .wrapper {
-    width: 100%;
+    width: 75vw;
     height: 30rem;
   }
   .slide-container {
-    width: 75%;
+    width: 75vw;
     height: 30rem;
   }
 }
@@ -320,34 +320,34 @@ ul {
 /* slide animation for the slideshow */
 @keyframes slide {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0vw);
   }
   20% {
-    transform: translateX(0%);
+    transform: translateX(0vw);
   }
   25% {
-    transform: translateX(100%);
+    transform: translateX(75vw);
   }
   45% {
-    transform: translateX(100%);
+    transform: translateX(75vw);
   }
   50% {
-    transform: translateX(200%);
+    transform: translateX(calc(75vw * 2));
   }
   70% {
-    transform: translateX(200%);
+    transform: translateX(calc(75vw * 2));
   }
   75% {
-    transform: translateX(300%);
+    transform: translateX(calc(75vw * 3));
   }
   95% {
-    transform: translateX(300%);
+    transform: translateX(calc(75vw * 3));
   }
   99% {
-    transform: translateX(400%);
+    transform: translateX(calc(75vw * 4));
   }
   100% {
-    transform: translateX(400%);
+    transform: translateX(calc(75vw * 4));
   }
 }
 /* styles the RWGPS route map embed */
