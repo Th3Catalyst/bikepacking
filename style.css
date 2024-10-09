@@ -276,13 +276,13 @@ ul {
   
   }
   .wrapper {
-    width: 100%; /*vw is 1% of veiwport width */
-    height: 60vw;
+    width: 15rem;
+    height: 10rem;
 
   }
   .slide-container {
-    width: 75vw; /*vw is 1% of veiwport width */
-    height: 60vw;
+    width: 15rem;
+    height: 10rem;
   }
   
 }
