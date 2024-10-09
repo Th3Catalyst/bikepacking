@@ -276,7 +276,7 @@ ul {
   
   }
   .wrapper {
-    width: 100vw; /*vw is 1% of veiwport width */
+    width: 100%; /*vw is 1% of veiwport width */
     height: 60vw;
 
   }
@@ -315,7 +315,7 @@ ul {
   flex-direction: row-reverse;
 }
 .wrapper img {
-  width: 100%;
+  width: 75vw;
 }
 /* slide animation for the slideshow */
 @keyframes slide {
