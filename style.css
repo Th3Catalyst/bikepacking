@@ -269,19 +269,20 @@ ul {
     color: #fff;
     text-shadow: #000 1px 1px;
     top: -3em;
+    left: -1vw;
     text-align: center;
     font-size: small;
     margin: 0;
   
   }
   .wrapper {
-    width: 15rem;
-    height: 10rem;
+    width: 75vw;
+    height: 60vw;
 
   }
   .slide-container {
-    width: 15rem;
-    height: 10rem;
+    width: 75vw;
+    height: 60vw;
   }
   
 }
