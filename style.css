@@ -23,6 +23,7 @@ html {
 .main-content {
   text-align: center;
   color: #eae2b7;
+  padding: 0.5vw;
 
 
 }
@@ -316,6 +317,7 @@ ul {
 }
 .wrapper img {
   width: 75vw;
+  overflow: clip;
 }
 /* slide animation for the slideshow */
 @keyframes slide {
