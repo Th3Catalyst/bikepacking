@@ -277,12 +277,12 @@ ul {
   }
   .wrapper {
     width: 75vw;
-    height: 10rem;
+    height: 60vw;
 
   }
   .slide-container {
     width: 75vw;
-    height: 10rem;
+    height: 60vw;
   }
   
 }
@@ -299,11 +299,11 @@ ul {
   }
   .wrapper {
     width: 75vw;
-    height: 30rem;
+    height: 60vw;
   }
   .slide-container {
     width: 75vw;
-    height: 30rem;
+    height: 60vw;
   }
 }
 
