@@ -28,7 +28,7 @@ html {
 /*styles the main content text and titles*/
 .main-content {
   text-align: center;
-  color: #eae2b7;
+  color: #FFF;
   padding: 0.5vw;
 
 
@@ -94,7 +94,7 @@ ul {
 .header h1 {
   font-size: 250%;
   margin-bottom: 0px;
-  color: #eae2b7;
+  color: #FFF;
   text-shadow: 2px 2px #222;
 }
 
