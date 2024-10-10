@@ -84,8 +84,8 @@ ul {
   top: -30px; /* makes sure there is no gap on the header */
   width: 100%;
   padding-top: 1.5em;
-  border-bottom: solid 5px #000;
-  background-color: #666;
+  border-bottom: solid 5px #666;
+  background-color: #000;
   overflow-x: clip; /* same as above */
 }
 
@@ -100,7 +100,7 @@ ul {
 /* styling the "A website about me" header */
 .header h3 {
   margin-top: 0px;
-  color: #f77f00;
+  color: #fff;
   text-shadow: 1px 1px #222;
 }
 /* ------------------ */
