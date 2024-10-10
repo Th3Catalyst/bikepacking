@@ -7,6 +7,7 @@ body {
   margin: 0px;
   /* removes the ability to scroll sideways while zoomed all teh way out, since this cuts out the overflow */
   overflow-x: clip;
+  font-size: 150%;
 }
 /* styles the entire page */
 html {
@@ -374,9 +375,6 @@ ul {
   background-color: #003049;
   border-bottom: 5px solid #fff;
   border-top: 5px solid #fff;
-}
-.scrolltexttop {
-  border-top: none!important;
 }
 .BG {
   background-position: center;
