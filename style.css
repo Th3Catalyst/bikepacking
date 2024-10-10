@@ -265,7 +265,7 @@ ul {
   position: relative;
   left: calc(25% / 2);
   overflow: hidden;
-  border: #eae2b7 solid 5px;
+  border: #FFF solid 5px;
   border-radius: 8px;
   margin: 0;
 }
