@@ -372,6 +372,8 @@ ul {
 .ScrollText {
   height:fit-content;
   background-color: #003049;
+  border-bottom: #fff;
+  border-top: #fff;
 }
 .BG {
   background-position: center;
@@ -401,5 +403,8 @@ ul {
 
 .b6 {
   background-image: url("images/Bikescroll6.jpg");
+}
+.b7 {
+  background-image: url("images/Bikescroll7.jpg");
 }
 
