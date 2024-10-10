@@ -381,7 +381,7 @@ ul {
   border-top: 5px solid #fff;
 }
 .BG {
-  
+  background-position:center;
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
