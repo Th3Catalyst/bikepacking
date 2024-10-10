@@ -217,8 +217,8 @@ ul {
 }
 /* styles the individual route images */
 .overnighter {
-  width: max(200px,13rem);
-  height: max(200px,13rem);
+  width: max(300px,17rem);
+  height: max(300px,17rem);
   border-radius: 1em;
   border: #000 solid 2px;
   align-content: center;
