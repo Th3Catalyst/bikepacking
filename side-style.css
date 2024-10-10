@@ -2,6 +2,7 @@
 /* Setting the font for the sidebar */
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 160%;
 }
 /* styling for the page links on the side bar */
 .page-link {
