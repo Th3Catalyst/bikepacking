@@ -8,6 +8,7 @@ body {
   /* removes the ability to scroll sideways while zoomed all teh way out, since this cuts out the overflow */
   overflow-x: clip;
 }
+/* makes the font bigger on a computer */
 @media only screen and (min-width: 767px) {
   body {
     font-size: 150%;
@@ -374,20 +375,22 @@ ul {
 /*--------------*/
 /*---Gear-CSS---*/
 /*--------------*/
+/* Parallax scrolling from canvas */
 .ScrollText {
-  height:fit-content;
-  background-color: #003049;
+  height:fit-content; /* makes sure the text fits in the boxes */
+  background-color: #444;
   border-bottom: 5px solid #fff;
   border-top: 5px solid #fff;
 }
 .BG {
-  background-position:center;
+  background-position:center; /* centers background*/
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:cover; /* covers the background with the image*/
   background-attachment: fixed;
   min-height: 40vw;
 }
 
+/* all the background images*/
 .b1 {
   background-image: url("images/Bikescroll1.jpg");
 }
