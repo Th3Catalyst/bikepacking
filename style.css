@@ -7,7 +7,11 @@ body {
   margin: 0px;
   /* removes the ability to scroll sideways while zoomed all teh way out, since this cuts out the overflow */
   overflow-x: clip;
-  font-size: 150%;
+}
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 150%;
+  }
 }
 /* styles the entire page */
 html {
@@ -381,7 +385,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 400px;
+  min-height: 40vw;
 }
 .b1 {
   background-image: url("images/Bikescroll1.jpg");
