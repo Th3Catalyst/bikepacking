@@ -386,6 +386,7 @@ ul {
   background-size: cover;
   background-attachment: fixed;
   min-height: 40vw;
+  max-width: 100vw;
 }
 .b1 {
   background-image: url("images/Bikescroll1.jpg");
