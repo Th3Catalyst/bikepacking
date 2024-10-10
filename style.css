@@ -374,45 +374,43 @@ ul {
 /*--------------*/
 /*---Gear-CSS---*/
 /*--------------*/
-@media only screen and (min-width:2300px) {
-  .ScrollText {
-    height:fit-content;
-    background-color: #003049;
-    border-bottom: 5px solid #fff;
-    border-top: 5px solid #fff;
-  }
-  .BG {
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    min-height: 40vw;
-    width: 100vw;
-  }
-
-  .b1 {
-    background-image: url("images/Bikescroll1.jpg");
-  }
-
-  .b2 {
-    background-image: url("images/Bikescroll2.jpg");
-  }
-
-  .b3 {
-    background-image: url("images/Bikescroll3.jpg");
-  }
-
-  .b4 {
-    background-image: url("images/Bikescroll4.jpg");
-  }
-  .b5 {
-    background-image: url("images/Bikescroll5.jpg");
-  }
-
-  .b6 {
-    background-image: url("images/Bikescroll6.jpg");
-  }
-  .b7 {
-    background-image: url("images/Bikescroll7.jpg");
-  }
+.ScrollText {
+  height:fit-content;
+  background-color: #003049;
+  border-bottom: 5px solid #fff;
+  border-top: 5px solid #fff;
 }
+.BG {
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
+.b1 {
+  background-image: url("images/Bikescroll1.jpg");
+}
+
+.b2 {
+  background-image: url("images/Bikescroll2.jpg");
+}
+
+.b3 {
+  background-image: url("images/Bikescroll3.jpg");
+}
+
+.b4 {
+  background-image: url("images/Bikescroll4.jpg");
+}
+.b5 {
+  background-image: url("images/Bikescroll5.jpg");
+}
+
+.b6 {
+  background-image: url("images/Bikescroll6.jpg");
+}
+.b7 {
+  background-image: url("images/Bikescroll7.jpg");
+}
+
