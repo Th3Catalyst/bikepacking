@@ -383,9 +383,10 @@ ul {
 .BG {
   background-position: center;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-attachment: fixed;
   min-height: 40vw;
+  width: 100vw;
 }
 .b1 {
   background-image: url("images/Bikescroll1.jpg");
