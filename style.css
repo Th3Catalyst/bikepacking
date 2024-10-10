@@ -192,7 +192,7 @@ ul {
   color: #000;
   display: flex;
   margin: 0px;
-  padding: 1em;
+  padding: calc(1em + 0.5vw);
   overflow-x: scroll; /* gives the overflow bar a scroll property, so on phones you can scroll through the routes */
 }
 /* styles the "OVERNIGHTER" title */
