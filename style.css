@@ -365,4 +365,41 @@ ul {
   }
 
 }
+/*--------------*/
+/*---Gear-CSS---*/
+/*--------------*/
+
+.ScrollText {
+  height:fit-content;
+  background-color: #003049;
+}
+.BG {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+}
+.b1 {
+  background-image: url("images/Bikescroll1.jpg");
+}
+
+.b2 {
+  background-image: url("images/Bikescroll2.jpg");
+}
+
+.b3 {
+  background-image: url("images/Bikescroll3.jpg");
+}
+
+.b4 {
+  background-image: url("images/Bikescroll4.jpg");
+}
+.b5 {
+  background-image: url("images/Bikescroll5.jpg");
+}
+
+.b6 {
+  background-image: url("images/Bikescroll6.jpg");
+}
 
