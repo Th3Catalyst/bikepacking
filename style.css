@@ -8,7 +8,7 @@ body {
   /* removes the ability to scroll sideways while zoomed all teh way out, since this cuts out the overflow */
   overflow-x: clip;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 767px) {
   body {
     font-size: 150%;
   }
