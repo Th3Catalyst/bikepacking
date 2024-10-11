@@ -109,7 +109,7 @@ ul {
 /* ------------------ */
 
 /* styles the sidebar container that is used to close the bar*/
-/* # is becuase it is an id, not a class*/
+/* # is because it is an id, not a class*/
 #side-bar {
   display: block;
   position: fixed; /* this is so the sidebar stays with you when you scroll down */
@@ -224,7 +224,7 @@ ul {
   align-content: center;
   color: #fff;
   text-shadow: #000 1px 1px;
-  background-size: cover; /* mkaes the images in the background of the route images take up the whole backround */
+  background-size: cover; /* makes the images in the background of the route images take up the whole background */
   background-repeat: no-repeat;
   margin: 1em;
 }
@@ -276,7 +276,7 @@ ul {
     color: #fff;
     text-shadow: #000 1px 1px;
     top: -3em;
-    left: -1vw; /*vw is 1% of veiwport width */
+    left: -1vw; /*vw is 1% of viewport width */
     text-align: center;
     font-size: small;
     margin: 0;
@@ -367,7 +367,7 @@ ul {
 }
 @media only screen and (max-width: 800px) {
   .route-map {
-    width: 100vw !important; /*vw is 1% of veiwport width */
+    width: 100vw !important; /*vw is 1% of viewport width */
     height: 120vw !important;
   }
 
