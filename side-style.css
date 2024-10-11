@@ -2,11 +2,10 @@
 /* Setting the font for the sidebar */
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 160%;
 }
 @media only screen and (min-width:800px) {
   body {
-    font-size: 160%;
+    font-size: 110%;
   }
 }
 /* styling for the page links on the side bar */
