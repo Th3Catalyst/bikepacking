@@ -5,7 +5,7 @@
 body {
   /* removes some border issues with the header*/
   margin: 0px;
-  /* removes the ability to scroll sideways while zoomed all teh way out, since this cuts out the overflow */
+  /* removes the ability to scroll sideways while zoomed all the way out, since this cuts out the overflow */
   overflow-x: clip;
 }
 /* makes the font bigger on a computer */
@@ -34,7 +34,7 @@ html {
 
 }
 
-/* styles h3 and h2 for the websites main content */
+/* styles h3 and h2 for the website's main content */
 .main-content h3, .main-content h2 {
   
   text-align: left;
@@ -45,7 +45,7 @@ html {
   
 }
 
-/* styles the homepage footr */
+/* styles the homepage footer */
 .footer {
   font-weight: normal !important;
   font-size: 0.75em;
@@ -120,7 +120,7 @@ ul {
   left: -100%;
   top: 0em;
   z-index: 100; /* makes sure that the side bar close button is always above the main content */
-  /*repition is so it works on all browsers*/
+  /*repitition is so it works on all browsers*/
   transition: 1s ease-in-out;
   -o-transition: 1s ease-in-out;
   -webkit-transition: 1s ease-in-out;
