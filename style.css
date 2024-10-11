@@ -11,7 +11,7 @@ body {
 /* makes the font bigger on a computer */
 @media only screen and (min-width: 767px) {
   body {
-    font-size: 110%;
+    font-size: 120%;
   }
 }
 /* styles the entire page */
@@ -217,8 +217,8 @@ ul {
 }
 /* styles the individual route images */
 .overnighter {
-  width: max(300px,17rem);
-  height: max(300px,17rem);
+  width: max(200px,15rem);
+  height: max(200px,15rem);
   border-radius: 1em;
   border: #000 solid 2px;
   align-content: center;
