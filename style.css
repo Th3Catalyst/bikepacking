@@ -135,7 +135,7 @@ ul {
 /* styles the visible side bar */
 .side-bar-container {
   height:100%;
-  width: 17em;
+  width: 15em;
   /* makes the background of the sidebar blur the content below the sidebar */
   -webkit-backdrop-filter: blur(10px);
   -o-backdrop-filter: blur(10px);
