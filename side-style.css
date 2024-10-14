@@ -4,6 +4,7 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size:160%;
 }
+/* changes font size on a phone/smaller screen */
 @media only screen and (min-width:800px) {
   body {
     font-size: 150%;

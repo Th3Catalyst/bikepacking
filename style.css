@@ -104,6 +104,7 @@ ul {
   color: #fff;
   text-shadow: 1px 1px #222;
 }
+
 /* ------------------ */
 /* -----side-bar----- */
 /* ------------------ */
@@ -116,8 +117,7 @@ ul {
   /* this covers the screen so you can click anywhere to close */
   width: 100%;
   height: 100%;
-  /* offscreen if button is not clicked*/
-  left: -100%;
+  left: -100%; /* offscreen if button is not clicked*/
   top: 0em;
   z-index: 100; /* makes sure that the side bar close button is always above the main content */
   /*repitition is so it works on all browsers*/
@@ -146,8 +146,8 @@ ul {
 
 /*:target means if it is hyperlinked to (notice how when you click side bar the link adds #side-bar)*/
 #side-bar:target {
-  /*makes side bar onscreen once button is clicked*/
-  left: 0;
+  left: 0; /*makes side bar onscreen once button is clicked*/
+  /* removes some border issues since the background is a link */
   border: none !important;
   text-decoration: none !important;
 
@@ -260,7 +260,7 @@ ul {
 /* -------individual-route-css------ */
 /* --------------------------------- */
 
-/* slideshow from your canvas */
+/* slideshow from your canvas page */
 .slide-container {
   position: relative;
   left: calc(25% / 2);
@@ -269,7 +269,7 @@ ul {
   border-radius: 8px;
   margin: 0;
 }
-/* RWD for the caption and the slideshow container */
+/* RWD (responsive web design) for the caption */
 @media only screen and (max-width: 767px) {
   .caption {
     position: relative;
@@ -281,15 +281,6 @@ ul {
     font-size: small;
     margin: 0;
   
-  }
-  .wrapper {
-    width: 75vw;
-    height: 60vw;
-
-  }
-  .slide-container {
-    width: 75vw;
-    height: 60vw;
   }
   
 }
@@ -305,14 +296,15 @@ ul {
     font-weight: bold;
   
   }
-  .wrapper {
-    width: 75vw;
-    height: 60vw;
-  }
-  .slide-container {
-    width: 75vw;
-    height: 60vw;
-  }
+  
+}
+.wrapper {
+  width: 75vw;
+  height: 60vw;
+}
+.slide-container {
+  width: 75vw;
+  height: 60vw;
 }
 
 .wrapper {
@@ -365,6 +357,7 @@ ul {
   border-radius: 2em;
   overflow: clip;
 }
+/* RWD for the route map embed */
 @media only screen and (max-width: 800px) {
   .route-map {
     width: 100vw !important; /*vw is 1% of viewport width */
@@ -376,7 +369,7 @@ ul {
 /*--------------*/
 /*---Gear-CSS---*/
 /*--------------*/
-/* Parallax scrolling from canvas */
+/* Parallax scrolling from your canvas */
 .ScrollText {
   height:fit-content; /* makes sure the text fits in the boxes */
   background-color: #444;
